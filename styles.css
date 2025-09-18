@@ -1,60 +1,30 @@
-*{
-	/*box-sizing:border-box;*/
-	margin:0;
-	padding:0;
-	
-}
 body{
 	background-color:#f8f8f8;
 }
-.white{
-	background-color:white;
-	height:20px;
-	margin-bottom:9px;
+.book-library{
+	background-color:#ffffff;
+	width:70vw;
+	justify-self:center;
+}
+.book{
+	text-align:center;
+	padding:10px;
 }
 h1{
 	text-align:center;
+	font-size:24px;
+	padding:8px;
 }
-.book-library{
-	background-color:#ffffff;
-	width:60%;
-	display:flex;
-	flex-direction:column;
-	gap:10px;
-	box-shadow:0 1px 0 1px;
-	border:2px soft-light gray;
-	margin:10px;
-	border:solid gray;
-	border-radius:5px;
-}
-.book {
-	text-align:flex-start;
-	
-}
-.book img{
-	height:150px;
-	width:120px;
-	display:flex;
-	justify-self:center;
+h2,.author{
+	text-align:left;
+	margin:0;
 }
 .author{
-	color:rgb(119, 119, 119);
-	margin-left:10px;
+	color:#777777;
 }
-
-.price{
-	/*background-color: rgb(46, 204, 113);*/
+.price-block{
 	background-color:#2ecc71;
-	width:92%;
-	height:16px;
-	padding:5px;
-	border-radius:5px;
-	justify-self:center;
-	text-align:center;
-	margin:5px;
+	padding:4px;
+	border-radius:4px;
 	color:white;
-	
-}
-h2{
-	margin-left:10px;
 }
